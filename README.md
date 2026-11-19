@@ -6,7 +6,7 @@
   <img src="https://komarev.com/ghpvc/?username=fxtiion-sys&label=visitors&color=a5d8ff&style=flat" alt="visitors" />
 </p>
 
-<p align="center">⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆</p>
+<p align="center">· ⋆ · ☁︎ · ⋆ · ☾ · ⋆ · ☁︎ · ⋆ ·</p>
 
 ### 🐰 a little about me
 
@@ -18,7 +18,7 @@ from:      Seoul 🇰🇷 → Canada 🇨🇦
 fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
 ```
 
-<p align="center">⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆</p>
+<p align="center">· ⋆ · ☁︎ · ⋆ · ☾ · ⋆ · ☁︎ · ⋆ ·</p>
 
 ### 🍓 things i'm building
 
@@ -67,7 +67,7 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
   </tr>
 </table>
 
-<p align="center">⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆</p>
+<p align="center">· ⋆ · ☁︎ · ⋆ · ☾ · ⋆ · ☁︎ · ⋆ ·</p>
 
 ### 🧸 my little toolbox
 
@@ -77,7 +77,7 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
   <img src="https://skillicons.dev/icons?i=git,github,githubactions,idea,vscode,notion&theme=light" alt="tools" />
 </p>
 
-<p align="center">⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆</p>
+<p align="center">· ⋆ · ☁︎ · ⋆ · ☾ · ⋆ · ☁︎ · ⋆ ·</p>
 
 ### 🌱 currently growing
 
@@ -86,7 +86,7 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
 - [x] 🧩 practising LeetCode a little every day (python & java)
 - [ ] 🔒 peeking into cybersecurity — soon!
 
-<p align="center">⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆</p>
+<p align="center">· ⋆ · ☁︎ · ⋆ · ☾ · ⋆ · ☁︎ · ⋆ ·</p>
 
 ### 🌸 my commit garden
 
@@ -94,7 +94,7 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=fxtiion-sys&bg_color=fff5fa&color=b07aa1&line=f9a8d4&point=c4b5fd&area=true&area_color=fbcfe8&hide_border=true&radius=12" width="95%" alt="activity graph" />
 </p>
 
-<p align="center">⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆</p>
+<p align="center">· ⋆ · ☁︎ · ⋆ · ☾ · ⋆ · ☁︎ · ⋆ ·</p>
 
 ### 💌 come say hi
 
