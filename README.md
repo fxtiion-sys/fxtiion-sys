@@ -103,10 +103,11 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
 
 ### 🧶 my yarn basket
 
-<p align="center"><sub>one yarn ball per week · busier weeks roll bigger</sub></p>
+<p align="center"><sub>one yarn ball per week of commits · busier weeks roll bigger</sub></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fxtiion-sys/fxtiion-sys/output/garden.svg" width="100%" alt="yarn basket: one yarn ball per week, with a little black cat" />
+  <img src="https://raw.githubusercontent.com/fxtiion-sys/fxtiion-sys/output/garden.svg" width="100%" alt="commit yarn basket: one yarn ball per week, with a little black cat" />
+  <br/><sub><i>🐾 a little widget i made · python + github actions · redrawn daily</i></sub>
 </p>
 
 <p align="center">· ⋆ · ☁︎ · ⋆ · ☾ · ⋆ · ☁︎ · ⋆ ·</p>
