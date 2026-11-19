@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:ffd6e8,50:e9d5ff,100:cdeafe&height=170&section=header&text=hi,%20i'm%20ellie&fontSize=46&fontColor=6b4f7a&fontAlignY=42&desc=backend%20dev%20in%20training%20%C2%B7%20building%20things%20that%20don't%20break&descSize=16&descAlignY=68" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:ffd6e8,50:e9d5ff,100:cdeafe&height=170&section=header&text=hi,%20i'm%20ellie%20%28%20%CB%98%20%E1%B5%95%20%CB%98%20%29&fontSize=46&fontColor=6b4f7a&fontAlignY=42&desc=backend%20dev%20in%20training%20%C2%B7%20building%20things%20that%20don't%20break&descSize=16&descAlignY=68" width="100%" alt="header" />
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-looking%20for%20summer%202027%20internship-ffb6d9?style=flat&labelColor=fff0f6" alt="status" />
@@ -95,7 +95,7 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
 
 ### 🌱 currently growing
 
-- [x] ☁️ studying for cloud certifications
+- [ ] ☁️ studying for cloud certifications
 - [x] 🧩 practising LeetCode a little every day (python & java)
 - [ ] 🔒 peeking into cybersecurity — soon!
 
@@ -103,8 +103,10 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
 
 ### 🌸 my commit garden
 
+<p align="center"><sub>one flower per week · busier weeks bloom bigger</sub></p>
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fxtiion-sys&bg_color=fff5fa&color=b07aa1&line=f9a8d4&point=c4b5fd&area=true&area_color=fbcfe8&hide_border=true&radius=12" width="95%" alt="activity graph" />
+  <img src="https://raw.githubusercontent.com/fxtiion-sys/fxtiion-sys/output/garden.svg" width="100%" alt="commit garden: one flower per week" />
 </p>
 
 <p align="center">· ⋆ · ☁︎ · ⋆ · ☾ · ⋆ · ☁︎ · ⋆ ·</p>
