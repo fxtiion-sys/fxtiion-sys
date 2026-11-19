@@ -118,6 +118,6 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
   <br/><sub>↑ tap the letter to send me an email ♡</sub>
 </p>
 
-<p align="center"><sub>thanks for stopping by ♡ have a lovely day ( ˶ˆᗜˆ˵ )</sub></p>
+<p align="center"><sub>thanks for stopping by ! have a great day ( ˶ˆᗜˆ˵ )</sub></p>
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:cdeafe,50:e9d5ff,100:ffd6e8&height=70&section=footer" width="100%" alt="footer" />
