@@ -95,7 +95,7 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
 
 ### 🌱 currently growing
 
-- [ ] ☁️ studying for cloud certifications
+- [x] ☁️ studying for cloud certifications
 - [x] 🧩 practising LeetCode a little every day (python & java)
 - [ ] 🔒 peeking into cybersecurity — soon!
 
