@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/status-looking%20for%20summer%202027%20internship-ffb6d9?style=flat&labelColor=fff0f6" alt="status" />
   <img src="https://img.shields.io/badge/based%20in-Canada-c4b5fd?style=flat&labelColor=f5f3ff" alt="location" />
-  <img src="https://komarev.com/ghpvc/?username=fxtiion-sys&label=visitors&color=a5d8ff&style=flat" alt="visitors" />
 </p>
 
 <p align="center">· ⋆ · ☁︎ · ⋆ · ☾ · ⋆ · ☁︎ · ⋆ ·</p>
@@ -11,7 +10,7 @@
 ### 🐰 a little about me
 
 ```yaml
-name:      Ellie (Nahyun Kim)
+name:      Ellie
 loves:     backend stuff — APIs, databases, things that don't break
 dreaming:  infrastructure & cloud someday ☁️
 from:      Seoul 🇰🇷 → Canada 🇨🇦
@@ -81,8 +80,7 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
 
 ### 🌱 currently growing
 
-- [ ] ☁️ AWS Cloud Practitioner
-- [ ] 💙 Azure Fundamentals (AZ-900)
+- [ ] ☁️ studying for cloud certifications
 - [x] 🧩 practising LeetCode a little every day (python & java)
 - [ ] 🔒 peeking into cybersecurity — soon!
 
@@ -97,10 +95,6 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
 <p align="center">· ⋆ · ☁︎ · ⋆ · ☾ · ⋆ · ☁︎ · ⋆ ·</p>
 
 ### 💌 come say hi
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/nhelliek"><img src="https://img.shields.io/badge/linkedin-say%20hi-a5d8ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=7cb9e8" alt="LinkedIn" /></a>
-</p>
 
 <p align="center">
   <a href="mailto:ellie.nkim.dev@gmail.com?subject=Hi%20Ellie!%20%F0%9F%91%8B" title="send me a letter ♡"><font size="6">💌</font></a>
