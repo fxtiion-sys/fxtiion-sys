@@ -76,16 +76,26 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
 ### 🧸 my little toolbox
 
 <p align="center">
+  <sub><b>languages</b></sub><br/>
   <img src="https://skillicons.dev/icons?i=java,python,c,js,html,css&theme=light" alt="languages" /><br/>
-  <img src="https://skillicons.dev/icons?i=spring,fastapi,flask,postgres,sqlite,docker,gradle&theme=light" alt="backend" /><br/>
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,idea,vscode,notion&theme=light" alt="tools" />
+  <sub>Java · Python · C · JavaScript · HTML · CSS</sub>
+</p>
+<p align="center">
+  <sub><b>backend & data</b></sub><br/>
+  <img src="https://skillicons.dev/icons?i=spring,fastapi,flask,postgres,sqlite,docker,gradle&theme=light" alt="backend & data" /><br/>
+  <sub>Spring Boot · FastAPI · Flask · PostgreSQL · SQLite · Docker · Gradle</sub>
+</p>
+<p align="center">
+  <sub><b>tools</b></sub><br/>
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,idea,vscode,notion&theme=light" alt="tools" /><br/>
+  <sub>Git · GitHub · GitHub Actions · IntelliJ · VS Code · Notion</sub>
 </p>
 
 <p align="center">· ⋆ · ☁︎ · ⋆ · ☾ · ⋆ · ☁︎ · ⋆ ·</p>
 
 ### 🌱 currently growing
 
-- [x] ☁️ studying for cloud certifications
+- [ ] ☁️ studying for cloud certifications
 - [x] 🧩 practising LeetCode a little every day (python & java)
 - [ ] 🔒 peeking into cybersecurity — soon!
 
