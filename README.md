@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:ffd6e8,50:e9d5ff,100:cdeafe&height=170&section=header&text=hi,%20i'm%20ellie%20%E2%99%A1&fontSize=46&fontColor=6b4f7a&fontAlignY=42&desc=backend%20dev%20in%20training%20%C2%B7%20building%20things%20that%20don't%20break&descSize=16&descAlignY=68" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:ffd6e8,50:e9d5ff,100:cdeafe&height=170&section=header&text=hi,%20i'm%20ellie&fontSize=46&fontColor=6b4f7a&fontAlignY=42&desc=backend%20dev%20in%20training%20%C2%B7%20building%20things%20that%20don't%20break&descSize=16&descAlignY=68" width="100%" alt="header" />
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-looking%20for%20summer%202027%20internship-ffb6d9?style=flat&labelColor=fff0f6" alt="status" />
