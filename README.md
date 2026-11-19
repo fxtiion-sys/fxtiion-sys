@@ -57,10 +57,15 @@ fun fact:  my flask app runs on port 5001 because macOS airplay stole 5000 😤
       <sub><i>👯‍♀️ team project · WiTS Ada Mentorship</i></sub>
       <p>ride-sharing between cities for verified university students — cheaper than the coach bus, safer than strangers 🚙</p>
       <ul>
-        <li>developer on a 5-person team (PM, mentor, designer, devs)</li>
-        <li>working on the Flask JSON API side</li>
+        <li>set up the Flask + React project skeleton</li>
+        <li>designed the PostgreSQL models, first migration & ERD</li>
+        <li>built the auth API — sign up, email verification, login/logout with session cookies</li>
+        <li>university-email-only sign up, 24h verify links, one shared error format</li>
+        <li>built the shared frontend base, auth pages, Explore & Ride details screens</li>
+        <li>wrote the API spec & docs structure</li>
       </ul>
-      <p><code>Flask</code> <code>PostgreSQL</code> <code>React</code></p>
+      <p>💡 <i>a dev on a 5-person team (PM, mentor, designer, devs)</i></p>
+      <p><code>Flask</code> <code>Flask-Login</code> <code>PostgreSQL</code> <code>React</code></p>
       <a href="https://github.com/sabrinajlee/campus-carpool">→ peek at the repo</a>
     </td>
   </tr>
