@@ -1,12 +1,12 @@
 """Draw a pastel "yarn basket" SVG from a GitHub user's contribution calendar.
 
-One yarn ball per week. Busier weeks roll bigger yarn balls; quiet weeks
-leave a tiny dot. A little black cat walks across the floor. No numbers
+One yarn ball per week. Sizes are relative to my own busiest week (like GitHub's
+shading is relative to my own activity); quiet weeks leave a tiny dot. A little black cat walks across the floor. No numbers
 are drawn anywhere.
 
 Usage:
   GITHUB_TOKEN=... python garden.py <username> <out.svg>      # live data (GitHub Actions)
-  python garden.py --levels sample_levels.txt <out.svg>        # offline preview
+  python garden.py --counts sample_counts.txt <out.svg>        # offline preview
 """
 
 import json
@@ -14,14 +14,11 @@ import os
 import sys
 import urllib.request
 
-LEVEL = {"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2,
-         "THIRD_QUARTILE": 3, "FOURTH_QUARTILE": 4}
-
 YARN = ["#f9a8d4", "#c4b5fd", "#a5d8ff", "#fbcfe8", "#ddd6fe", "#f0abfc"]
 CAT = "#161418"
 
-W, H = 860, 170
-FLOOR = 140
+W, H = 860, 130
+FLOOR = 106
 
 
 def fetch_weeks(user: str, token: str) -> list[int]:
@@ -29,7 +26,7 @@ def fetch_weeks(user: str, token: str) -> list[int]:
     query($login: String!) {
       user(login: $login) {
         contributionsCollection {
-          contributionCalendar { weeks { contributionDays { contributionLevel } } }
+          contributionCalendar { weeks { contributionDays { contributionCount } } }
         }
       }
     }"""
@@ -41,26 +38,31 @@ def fetch_weeks(user: str, token: str) -> list[int]:
     with urllib.request.urlopen(req) as resp:
         data = json.load(resp)
     weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
-    return [sum(LEVEL[d["contributionLevel"]] for d in w["contributionDays"]) for w in weeks]
+    return [sum(d["contributionCount"] for d in w["contributionDays"]) for w in weeks]
 
 
-def weeks_from_levels_file(path: str) -> list[int]:
-    digits = open(path).read().split()[-1]
-    days = [int(c) for c in digits]
+def weeks_from_counts_file(path: str) -> list[int]:
+    days = [int(c) for c in open(path).read().split()[-1].split(",")]
     return [sum(days[i:i + 7]) for i in range(0, len(days), 7)]
 
 
-def tier(score: int) -> int:
-    """Weekly score (sum of daily levels, 0-28) -> yarn size tier 0-4."""
-    if score == 0:
-        return 0
-    return 1 if score <= 3 else 2 if score <= 8 else 3 if score <= 15 else 4
+R_MIN, R_MAX = 8.0, 30.0
 
 
-def yarn_ball(x: float, t: int, color: str) -> str:
-    if t == 0:
+def relative_size(count: int, busiest: int) -> float:
+    """Size relative to *my own* busiest week (0-1), like GitHub shading is relative to my own activity.
+
+    The 0.4 power keeps small weeks visible instead of shrinking them next to one big week.
+    """
+    if count == 0 or busiest == 0:
+        return 0.0
+    return (count / busiest) ** 0.4
+
+
+def yarn_ball(x: float, rel: float, color: str) -> str:
+    if rel == 0:
         return f'<circle cx="{x:.1f}" cy="{FLOOR - 1.2}" r="1.2" fill="#e9d5e6"/>'
-    r = 3 + t * 3.4
+    r = R_MIN + (R_MAX - R_MIN) * rel
     cy = FLOOR - r
     parts = [f'<circle cx="{x:.1f}" cy="{cy:.1f}" r="{r:.1f}" fill="{color}"/>']
     for k in range(3):
@@ -68,7 +70,7 @@ def yarn_ball(x: float, t: int, color: str) -> str:
         parts.append(f'<path d="M{x - r * 0.8:.1f} {cy + off - r * 0.2:.1f} Q{x:.1f} {cy + off - r * 0.6:.1f} '
                      f'{x + r * 0.8:.1f} {cy + off + r * 0.2:.1f}" stroke="#ffffff" stroke-width="1" '
                      f'fill="none" opacity="0.8"/>')
-    if t >= 3:  # a loose strand on the busiest weeks
+    if rel >= 0.75:  # a loose strand on the busiest weeks
         parts.append(f'<path d="M{x + r:.1f} {FLOOR - 1} q8 -2 14 1 t12 -1" stroke="{color}" '
                      f'stroke-width="1.2" fill="none"/>')
     return "".join(parts)
@@ -106,8 +108,9 @@ def black_cat() -> str:
 def render(weeks: list[int]) -> str:
     n = len(weeks)
     step = (W - 40) / max(n, 1)
-    balls = "".join(yarn_ball(20 + i * step + step / 2, tier(s), YARN[i % len(YARN)])
-                    for i, s in enumerate(weeks))
+    busiest = max(weeks, default=0)
+    balls = "".join(yarn_ball(20 + i * step + step / 2, relative_size(c, busiest), YARN[i % len(YARN)])
+                    for i, c in enumerate(weeks))
     y = FLOOR - 3
     walker = (f'<g transform="translate(-50 {y})"><g transform="scale(1.15)">{black_cat()}</g>'
               f'<animateTransform attributeName="transform" type="translate" '
@@ -125,8 +128,8 @@ def render(weeks: list[int]) -> str:
 
 def main() -> None:
     args = sys.argv[1:]
-    if args and args[0] == "--levels":
-        weeks, out = weeks_from_levels_file(args[1]), args[2]
+    if args and args[0] == "--counts":
+        weeks, out = weeks_from_counts_file(args[1]), args[2]
     else:
         user, out = args[0], args[1]
         weeks = fetch_weeks(user, os.environ["GITHUB_TOKEN"])
