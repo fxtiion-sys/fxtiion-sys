@@ -3,6 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/status-looking%20for%20summer%202027%20internship-ffb6d9?style=flat&labelColor=fff0f6" alt="status" />
   <img src="https://img.shields.io/badge/based%20in-Canada-c4b5fd?style=flat&labelColor=f5f3ff" alt="location" />
+  <a href="https://fxtiion-sys.github.io"><img src="https://img.shields.io/badge/portfolio-fxtiion--sys.github.io-e9d5ff?style=flat&labelColor=faf5ff" alt="portfolio" /></a>
 </p>
 
 <p align="center">· ⋆ · ☁︎ · ⋆ · ☾ · ⋆ · ☁︎ · ⋆ ·</p>
